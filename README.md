@@ -1,4 +1,4 @@
-# Юридичний компендіум — `law-handbook`
+# De Iure — `law-handbook`
 
 [![Deploy](https://github.com/samuel-edmund-morgan/law-handbook/actions/workflows/deploy.yml/badge.svg)](https://github.com/samuel-edmund-morgan/law-handbook/actions/workflows/deploy.yml)
 

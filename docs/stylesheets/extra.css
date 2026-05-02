@@ -1,10 +1,12 @@
-/* Юридичний компендіум — кастомні стилі */
+/* De Iure — кастомні стилі */
 
-/* Логотип трохи більший за дефолт */
+/* Логотип помітно більший за дефолт (дефолт Material ≈ 1.2rem).
+   Стеля без зміни висоти шапки ≈ 2.4rem. Якщо треба ще більше —
+   також збільш --md-header-height (наприклад, до 3rem). */
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 1.6rem;
-  width: 1.6rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 /* Акцент на admonition типу question */
