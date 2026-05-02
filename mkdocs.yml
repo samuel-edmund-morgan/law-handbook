@@ -1,10 +1,7 @@
 site_name: Юридичний компендіум
-site_description: Конспект підготовки до вступу в Національну академію Служби безпеки України, спеціальність D8 «Право», та подальшого навчання.
+site_description: Конспект для підготовки до вступу і ведення дисциплін під час навчання в Національній академії Служби безпеки України — спеціальність D8 «Право» (заочна форма).
 site_author: Samuel E. Morgan
 site_url: https://law.morgan-dev.com/
-repo_url: https://github.com/samuel-edmund-morgan/law-handbook
-repo_name: samuel-edmund-morgan/law-handbook
-edit_uri: edit/main/docs/
 copyright: >
   Public Key (OpenPGP/GPG) for encrypted communication&#58;<br/>
   GPG Key Fingerprint&#58; A7F6 AB83 9DCE 9C2A 64B7 14AB EAFE C4BB F49C C2FA<br/>
@@ -35,25 +32,11 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
-    - content.action.edit
     - content.tooltips
   palette:
-    - scheme: slate
-      primary: black
-      accent: red
-      toggle:
-        icon: material/weather-sunny
-        name: Перемкнути на світлу тему
-    - scheme: default
-      primary: black
-      accent: red
-      toggle:
-        icon: material/weather-night
-        name: Перемкнути на темну тему
-  icon:
-    repo: fontawesome/brands/github
-    edit: material/pencil
-    view: material/eye
+    scheme: slate
+    primary: black
+    accent: red
 
 extra:
   generator: false
@@ -67,9 +50,15 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:samuel@morgan-dev.com
       name: Email
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/semorgana
+      name: Docker Hub
     - icon: fontawesome/solid/lock
       link: https://keys.openpgp.org/search?q=A7F6AB839DCE9C2A64B714ABEAFEC4BBF49CC2FA
       name: OpenPGP
+    - icon: fontawesome/brands/signal-messenger
+      link: https://signal.me/#eu/AbEPOx59v4ASPDxcFZ_7TgAxMniKM3YZhwnKc_tFuunduZ0wG4hLLbcun4spf-Eh
+      name: Signal
 
 extra_css:
   - stylesheets/extra.css
@@ -132,6 +121,7 @@ nav:
 
   - Підготовка до вступу:
       - підготовка-до-вступу/index.md
+      - Дорожня карта вступу: підготовка-до-вступу/дорожня-карта.md
       - Календар підготовки: підготовка-до-вступу/timeline.md
 
       - Історія України:
@@ -246,6 +236,7 @@ nav:
   - 6 курс: 6-курс/index.md
   - 7 курс: 7-курс/index.md
   - Аспірантура: аспірантура/index.md
+  - Практика: практика/index.md
 
 watch:
   - docs

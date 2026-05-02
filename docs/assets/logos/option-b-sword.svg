@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Варіант B: ваги + меч (червоний меч за вагами) -->
+  <line x1="32" y1="6" x2="32" y2="50" stroke="#dc3545" stroke-width="3.5"/>
+  <polygon points="32,56 28,50 36,50" fill="#dc3545"/>
+  <line x1="22" y1="22" x2="42" y2="22" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="32" cy="9" r="3" fill="#ffffff"/>
+  <line x1="10" y1="22" x2="54" y2="22" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="14" y1="22" x2="14" y2="32" stroke="#ffffff" stroke-width="1"/>
+  <line x1="50" y1="22" x2="50" y2="32" stroke="#ffffff" stroke-width="1"/>
+  <path d="M8 32 Q14 40 20 32" fill="#ffffff" opacity="0.9"/>
+  <path d="M44 32 Q50 40 56 32" fill="#ffffff" opacity="0.9"/>
+</svg>

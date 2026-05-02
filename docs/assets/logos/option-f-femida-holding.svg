@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Варіант F: Феміда (фігура у тогу), що тримає ваги в розкинутих руках -->
+  <!-- Голова -->
+  <circle cx="32" cy="13" r="5.5" fill="#ffffff"/>
+  <!-- Пов'язка на очах -->
+  <rect x="26" y="11.5" width="12" height="3" fill="#dc3545"/>
+  <!-- Шия -->
+  <rect x="30.5" y="18.5" width="3" height="2.5" fill="#ffffff"/>
+  <!-- Тога — розширюється до низу -->
+  <path d="M22 58 L26 21 L38 21 L42 58 Z" fill="#ffffff"/>
+  <!-- Складка тоги (центральна тінь) -->
+  <line x1="32" y1="22" x2="32" y2="58" stroke="#0f1419" stroke-width="0.6" opacity="0.35"/>
+  <!-- Руки розкинуті, тримають поперечину ваг -->
+  <line x1="26" y1="24" x2="11" y2="30" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="38" y1="24" x2="53" y2="30" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Кисті — точки -->
+  <circle cx="11" cy="30" r="1.6" fill="#ffffff"/>
+  <circle cx="53" cy="30" r="1.6" fill="#ffffff"/>
+  <!-- Поперечина ваг (тонша, проходить за кистями) -->
+  <line x1="7" y1="32" x2="57" y2="32" stroke="#ffffff" stroke-width="1.2"/>
+  <!-- Підвіси чаш -->
+  <line x1="11" y1="32" x2="11" y2="40" stroke="#ffffff" stroke-width="0.8"/>
+  <line x1="53" y1="32" x2="53" y2="40" stroke="#ffffff" stroke-width="0.8"/>
+  <!-- Чаші — червоні півкупа -->
+  <path d="M5 40 Q11 49 17 40 Z" fill="#dc3545"/>
+  <path d="M47 40 Q53 49 59 40 Z" fill="#dc3545"/>
+</svg>
