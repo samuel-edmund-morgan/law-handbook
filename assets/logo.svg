@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Голова Феміди -->
+  <circle cx="32" cy="13" r="5" fill="#ffffff"/>
+  <!-- Пов'язка на очах -->
+  <rect x="26" y="11.5" width="12" height="2.5" fill="#dc3545"/>
+  <!-- Тіло (тога) -->
+  <path d="M22 38 L26 18 H38 L42 38 Z" fill="#ffffff"/>
+  <!-- Центральна вісь ваг -->
+  <line x1="32" y1="20" x2="32" y2="55" stroke="#ffffff" stroke-width="1.5"/>
+  <!-- Поперечина ваг -->
+  <line x1="10" y1="28" x2="54" y2="28" stroke="#ffffff" stroke-width="1.5"/>
+  <!-- Підвіси ваг -->
+  <line x1="12" y1="28" x2="12" y2="38" stroke="#ffffff" stroke-width="1"/>
+  <line x1="52" y1="28" x2="52" y2="38" stroke="#ffffff" stroke-width="1"/>
+  <!-- Ліва чаша -->
+  <path d="M6 38 Q12 46 18 38 Z" fill="#dc3545" stroke="#ffffff" stroke-width="1"/>
+  <!-- Права чаша -->
+  <path d="M46 38 Q52 46 58 38 Z" fill="#dc3545" stroke="#ffffff" stroke-width="1"/>
+  <!-- Меч (вертикально вниз від талії) -->
+  <line x1="32" y1="38" x2="32" y2="58" stroke="#dc3545" stroke-width="2"/>
+  <line x1="29" y1="40" x2="35" y2="40" stroke="#ffffff" stroke-width="1.2"/>
+</svg>
